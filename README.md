@@ -21,6 +21,13 @@ Produzir um artigo técnico e uma apresentação que analisem:
 | Apresentação | 24/11/2026, com participação do grupo e duração máxima de 30 minutos |
 | Versão final | PDF revisado e versão física preparada para a entrega |
 
+## Bibliografia e redação
+
+A [relação de referências](docs/referencias.md) reúne os 12 arquivos (10 publicações), o conteúdo de cada documento, a divisão da pesquisa entre os integrantes e as orientações para citar os dados. Os arquivos estão em [`Trabalho/Trabalho/`](Trabalho/Trabalho/).
+
+- [Anuário Mineral Brasileiro Interativo — ANM (Power BI)](https://app.powerbi.com/view?r=eyJrIjoiODIyOWJlMTgtZTBlNi00ODFhLWJiOGEtYzlmOWM3MjhmMWQ4IiwidCI6ImEzMDgzZTIxLTc0OWItNDUzNC05YWZhLTU0Y2MzMTg4OTdiOCJ9).
+- [Projeto do artigo no Overleaf](https://www.overleaf.com/project/6af8b6f2e99d9136ba422eeb/share#c5ef527f53bf21e2605ec48fbc48131520d46d52940df7c9).
+
 ## Planejamento
 
 O acompanhamento central é feito na [issue #9 — T12: Plano geral](https://github.com/guxvr/economia-de-energia/issues/9). Ela funciona como issue guarda-chuva e só deve ser encerrada depois que todas as outras tarefas do trabalho estiverem concluídas.
