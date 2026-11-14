@@ -23,33 +23,24 @@ Produzir um artigo técnico e uma apresentação que analisem:
 
 ## Planejamento
 
-O acompanhamento central é feito na [issue #9 — Plano geral](https://github.com/guxvr/economia-de-energia/issues/9). Ela funciona como issue guarda-chuva e só deve ser encerrada depois que todas as outras tarefas do trabalho estiverem concluídas.
+O acompanhamento central é feito na [issue #9 — T12: Plano geral](https://github.com/guxvr/economia-de-energia/issues/9). Ela funciona como issue guarda-chuva e só deve ser encerrada depois que todas as outras tarefas do trabalho estiverem concluídas.
 
-- [#1 — Estruturar o artigo em LaTeX/IEEE e definir o recorte](https://github.com/guxvr/economia-de-energia/issues/1)
-- [#2 — Redigir introdução, justificativa e metodologia](https://github.com/guxvr/economia-de-energia/issues/2)
-- [#3 — Analisar a economia do petróleo](https://github.com/guxvr/economia-de-energia/issues/3)
-- [#4 — Analisar a economia do gás natural](https://github.com/guxvr/economia-de-energia/issues/4)
-- [#5 — Analisar a economia do carvão mineral](https://github.com/guxvr/economia-de-energia/issues/5)
-- [#6 — Integrar a discussão comparativa e redigir a conclusão](https://github.com/guxvr/economia-de-energia/issues/6)
-- [#7 — Revisar referências, redação e PDF final](https://github.com/guxvr/economia-de-energia/issues/7)
-- [#8 — Preparar slides e ensaiar a apresentação](https://github.com/guxvr/economia-de-energia/issues/8)
+| Tarefa | Atividade | Responsável | Prazo | Issue |
+| --- | --- | --- | --- | --- |
+| T01 | Estruturar artigo em LaTeX/IEEE e definir recorte, objetivos e indicadores comuns | Matheus | 16/11/2026 | [#1](https://github.com/guxvr/economia-de-energia/issues/1) |
+| T02 | Redigir introdução, justificativa e metodologia | Gadelha | 18/11/2026 | [#2](https://github.com/guxvr/economia-de-energia/issues/2) |
+| T03 | Analisar a economia do petróleo | Gustavo | 19/11/2026 | [#3](https://github.com/guxvr/economia-de-energia/issues/3) |
+| T04 | Analisar a economia do gás natural | Heitor | 19/11/2026 | [#4](https://github.com/guxvr/economia-de-energia/issues/4) |
+| T05 | Analisar a economia do carvão mineral | Pedro | 19/11/2026 | [#5](https://github.com/guxvr/economia-de-energia/issues/5) |
+| T06 | Elaborar discussão econômica comparativa | Gadelha, com apoio de T03–T05 | 21/11/2026 | [#6](https://github.com/guxvr/economia-de-energia/issues/6) |
+| T07 | Redigir conclusão e integrar seções no artigo | Matheus | 21/11/2026 | [#7](https://github.com/guxvr/economia-de-energia/issues/7) |
+| T08 | Revisar conteúdo, referências, figuras e formatação | Todos; Matheus consolida | 22/11/2026 | [#8](https://github.com/guxvr/economia-de-energia/issues/8) |
+| T09 | Elaborar os slides e consolidar a apresentação | Pedro (visual); todos (conteúdo) | 21–23/11/2026 | [#10](https://github.com/guxvr/economia-de-energia/issues/10) |
+| T10 | Dividir falas, ensaiar e preparar respostas para discussão | Todos | 23/11/2026 | [#11](https://github.com/guxvr/economia-de-energia/issues/11) |
+| T11 | Gerar PDF definitivo, preparar versão física e apresentar | Matheus e Pedro (entrega); todos (apresentação) | 23–24/11/2026 | [#12](https://github.com/guxvr/economia-de-energia/issues/12) |
+| T12 | Acompanhar cronograma, dependências e pendências | Matheus | Contínuo | [#9](https://github.com/guxvr/economia-de-energia/issues/9) |
 
-Cada issue possui critérios de aceitação verificáveis. Novas tarefas necessárias à conclusão do projeto devem ser vinculadas à issue #9.
-
-## Cronograma interno
-
-| Etapa | Data sugerida |
-| --- | --- |
-| Estrutura e protocolo metodológico | 16/11/2026 |
-| Dados e esboços das análises | 17/11/2026 |
-| Introdução, justificativa e método | 18/11/2026 |
-| Seções de petróleo, gás e carvão | 19/11/2026 |
-| Discussão integrada e primeiros slides | 21/11/2026 |
-| Revisão cruzada | 22/11/2026 |
-| PDF, impressão, slides e ensaio final | 23/11/2026 |
-| Apresentação | 24/11/2026 |
-
-As datas anteriores à apresentação são metas de organização do grupo, não prazos adicionais da disciplina.
+Cada issue possui dependências e critérios de aceitação verificáveis. Novas tarefas necessárias à conclusão do projeto devem ser vinculadas à T12. As datas anteriores à apresentação são metas internas de organização do grupo, não prazos adicionais da disciplina.
 
 ## Estrutura do repositório
 
