@@ -30,6 +30,8 @@ A [relação de referências](docs/referencias.md) reúne os 12 arquivos (10 pub
 
 ## Planejamento
 
+O [GitHub Project — Cronograma do Grupo 7](https://github.com/users/guxvr/projects/2) reúne as 12 issues, seus responsáveis, datas de início e entrega e o marco final de 24/11/2026. O [cronograma em CSV](docs/cronograma.csv) registra os períodos da imagem de planejamento. As datas são metas internas, com apresentação e entrega oficial em 24/11.
+
 O acompanhamento central é feito na [issue #9 — T12: Plano geral](https://github.com/guxvr/economia-de-energia/issues/9). Ela funciona como issue guarda-chuva e só deve ser encerrada depois que todas as outras tarefas do trabalho estiverem concluídas.
 
 | Tarefa | Atividade | Responsável | Prazo | Issue |
@@ -42,7 +44,7 @@ O acompanhamento central é feito na [issue #9 — T12: Plano geral](https://git
 | T06 | Elaborar discussão econômica comparativa | Gadelha, com apoio de T03–T05 | 21/11/2026 | [#6](https://github.com/guxvr/economia-de-energia/issues/6) |
 | T07 | Redigir conclusão e integrar seções no artigo | Matheus | 21/11/2026 | [#7](https://github.com/guxvr/economia-de-energia/issues/7) |
 | T08 | Revisar conteúdo, referências, figuras e formatação | Todos; Matheus consolida | 22/11/2026 | [#8](https://github.com/guxvr/economia-de-energia/issues/8) |
-| T09 | Elaborar os slides e consolidar a apresentação | Pedro (visual); todos (conteúdo) | 21–23/11/2026 | [#10](https://github.com/guxvr/economia-de-energia/issues/10) |
+| T09 | Elaborar os slides e consolidar a apresentação | Pedro (visual); todos (conteúdo) | 20–23/11/2026 | [#10](https://github.com/guxvr/economia-de-energia/issues/10) |
 | T10 | Dividir falas, ensaiar e preparar respostas para discussão | Todos | 23/11/2026 | [#11](https://github.com/guxvr/economia-de-energia/issues/11) |
 | T11 | Gerar PDF definitivo, preparar versão física e apresentar | Matheus e Pedro (entrega); todos (apresentação) | 23–24/11/2026 | [#12](https://github.com/guxvr/economia-de-energia/issues/12) |
 | T12 | Acompanhar cronograma, dependências e pendências | Matheus | Contínuo | [#9](https://github.com/guxvr/economia-de-energia/issues/9) |
