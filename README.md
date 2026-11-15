@@ -53,7 +53,7 @@ Cada issue possui dependências e critérios de aceitação verificáveis. Novas
 
 ## Estrutura do repositório
 
-No estágio atual, os rascunhos usados no planejamento estão em `docs/issues/`. A estrutura de produção prevista na issue #1 é:
+O projeto base do artigo em LaTeX/IEEE foi implementado na raiz do repositório com a seguinte estrutura:
 
 ```text
 .
@@ -63,10 +63,15 @@ No estágio atual, os rascunhos usados no planejamento estão em `docs/issues/`.
 ├── dados/
 ├── figuras/
 └── docs/
-    └── issues/
 ```
 
-O comando de compilação e as instruções de integração serão adicionados quando a base LaTeX for implementada.
+## Compilação do artigo
+
+Com uma distribuição LaTeX instalada, compile com:
+
+```bash
+pdflatex main.tex && bibtex main && pdflatex main.tex && pdflatex main.tex
+```
 
 ## Como contribuir
 
