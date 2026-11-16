@@ -1,0 +1,82 @@
+indicador,entidade,periodo,valor,unidade,fonte,localizacao,observacao
+reservas_provadas,Mundo,2025,208.8,trilhões de m3,ANP Anuário 2026 (dados EI/Eni),secao-1 §1.2.1,
+reservas_provadas,Oriente Médio,2025,83.3,trilhões de m3,ANP Anuário 2026 (dados EI/Eni),secao-1 §1.2.1,39.9% do total mundial
+reservas_provadas,CEI,2025,65.3,trilhões de m3,ANP Anuário 2026 (dados EI/Eni),secao-1 §1.2.1,31.3% do total mundial
+reservas_provadas,América do Norte,2025,21.8,trilhões de m3,ANP Anuário 2026 (dados EI/Eni),secao-1 §1.2.1,10.5% do total mundial
+reservas_provadas,África,2025,16.0,trilhões de m3,ANP Anuário 2026 (dados EI/Eni),secao-1 §1.2.1,7.7% do total mundial
+reservas_provadas,Ásia-Pacífico,2025,11.4,trilhões de m3,ANP Anuário 2026 (dados EI/Eni),secao-1 §1.2.1,5.5% do total mundial
+reservas_provadas,Américas Central e do Sul,2025,7.3,trilhões de m3,ANP Anuário 2026 (dados EI/Eni),secao-1 §1.2.1,3.5% do total mundial
+reservas_provadas,Europa,2025,3.6,trilhões de m3,ANP Anuário 2026 (dados EI/Eni),secao-1 §1.2.1,"O texto da fonte escreve '3,6 milhões de m3' (provável erro de grafia); a participação de 1.7% do total é coerente com trilhões"
+reservas_provadas_participacao,"Rússia, Irã e Catar (juntos)",2025,50.1,% do total mundial,ANP Anuário 2026 (dados EI/Eni),secao-1 §1.2.1,Os três maiores detentores
+reservas_provadas_ranking,Brasil,2024,29,posição,ANP Anuário 2026 (dados EI/Eni),secao-1 §1.2.1,Último ano de ranking informado no texto
+reservas_provadas,Brasil,2025,573.3,bilhões de m3,ANP Anuário 2026,secao-2 §2.1.3,Base nacional ANP; NÃO comparável diretamente ao ranking mundial (EI/Eni). Em mar 480.8; em terra 92.5; Santos 302.1 (52.7%)
+reservas_totais,Brasil,2025,751.6,bilhões de m3,ANP Anuário 2026,secao-2 §2.1.3,Alta de 1.5% ante 2024; 639.9 em mar e 111.7 em terra
+producao_bruta,Brasil,2025,65.4,bilhões de m3,ANP Anuário 2026,secao-2 §2.1.4,"Inclui gás reinjetado e queimado; alta de 16.7% ante 2024 e 16º ano consecutivo de alta. Diferente da série do EI (26.6 bcm), que exclui reinjetado/queimado"
+producao_bruta_mar,Brasil,2025,56.5,bilhões de m3,ANP Anuário 2026,secao-2 §2.1.4,86.4% da produção
+producao_bruta_pre_sal,Brasil,2025,51.2,bilhões de m3,ANP Anuário 2026,secao-2 §2.1.4,78.2% da produção; Bacia de Santos 50.9 (77.7%)
+producao_gas_associado_participacao,Brasil,2025,90.8,% da produção,ANP Anuário 2026,secao-2 §2.1.4,"O texto também diz que o associado seria 65.4 bilhões de m3, o que é inconsistente com os ~6 bilhões de gás não associado; usar apenas o percentual"
+producao_reinjetada_participacao,Brasil,2025,54.4,% da produção,ANP Anuário 2026,secao-2 §2.1.4,
+producao_queimada_perdida_participacao,Brasil,2025,2.8,% da produção,ANP Anuário 2026,secao-2 §2.1.4,Queima e perdas subiram 16.7% ante 2024
+aproveitamento,Brasil,2025,42.8,% da produção,ANP Anuário 2026,secao-2 §2.1.4,
+relacao_reserva_producao,Brasil,2025,8.8,anos,ANP Anuário 2026,secao-2 §2.1.4,9.7 anos em 2024
+processamento_volume,Brasil,2025,22.4,bilhões de m3,ANP Anuário 2026,secao-2 §2.2.2,50.3% da capacidade instalada de 121.9 milhões de m3/dia em 14 polos; alta de 22% ante 2024
+dutos_gas_natural,Brasil,2025,11.8,mil km (118 dutos),ANP Anuário 2026,secao-2 §2.4,
+importacao_total,Brasil,2025,7.0,bilhões de m3,ANP Anuário 2026,secao-2 §2.5.4,Queda de 16.9% ante 2024
+importacao_gnl,Brasil,2025,2.5,bilhões de m3,ANP Anuário 2026,secao-2 §2.5.4,36% do total; EI informa 2.7 (GNL) e 4.3 (gasoduto): total igual (7.0) mas divisão diferente
+importacao_bolivia,Brasil,2025,4.5,bilhões de m3,ANP Anuário 2026,secao-2 §2.5.4,
+importacao_dispendio,Brasil,2025,1.1,US$ bilhões,ANP Anuário 2026,secao-2 §2.5.4,Queda de 17.1%; valor médio do gás importado US$ 234.73/mil m3
+importacao_gnl_dispendio,Brasil,2025,937,US$ milhões,ANP Anuário 2026,secao-2 §2.5.4,Valor médio US$ 372.55/mil m3 (+3.4%)
+importacao_gnl_origem_EUA,Brasil,2025,90.1,% do GNL importado,ANP Anuário 2026,secao-2 §2.5.4,"Trinidad e Tobago 5.2%, Camarões 3.3%, Reino Unido 1.4%"
+exportacao_gnl,Brasil,2025,114,milhões de m3,ANP Anuário 2026,secao-2 §2.5.4,Turquia 60.6%; Singapura 37.2%; EUA 2.1%
+vendas_gas_natural,Brasil,2025,18.6,bilhões de m3,ANP Anuário 2026,secao-3 §3.5.1,"Queda de 1.6%; média −3.9% a.a. em 2016–2025; Sudeste 57.5% (10.7), Nordeste 25% (4.6), Norte 10%, Sul 5.8%, Centro-Oeste 1.7%"
+consumo_proprio,Brasil,2025,10.9,bilhões de m3,ANP Anuário 2026,secao-3 §3.5.1,81.8% na região Sudeste; alta de 10.7%
+oferta_interna,Brasil,2025,34.6,bilhões de m3,ANP Anuário 2026,secao-3 §3.5.1,"53.6% vendas; 31.3% consumo próprio; 9.9% importadores; 5.1% LGN"
+preco_gnv,Brasil,2025,4.6,R$/m3,ANP Anuário 2026,secao-3 §3.2.3,Queda de 0.2%; moeda corrente nominal
+consumo,Brasil,2025,33.2,bilhões de m3,ANP Anuário 2026 (dados EI),secao-1 §1.2.3,28ª posição mundial; 0.8% do total mundial
+producao_media_diaria,Brasil,2025,179.2,milhões de m3/dia,BEN 2026,PDF p.16 (ano-base 2025),Equivale a ~65.4 bilhões de m3/ano (consistente com a produção bruta da ANP)
+importacao_media_diaria,Brasil,2025,19.1,milhões de m3/dia,BEN 2026,PDF p.16,Equivale a ~7.0 bilhões de m3/ano
+participacao_matriz,Brasil,2025,10.4,% da oferta interna de energia,BEN 2026,PDF p.16 (texto),A Tabela 1.3.b (PDF p.19) mostra 10.3%; divergência interna da fonte
+participacao_matriz,Brasil,2025,10.3,% da oferta interna de energia,BEN 2026,PDF p.19 (Tabela 1.3.b),Série: 12.3 (2016); 13.2 (2021); 9.6 (2023 e 2024)
+variacao_demanda,Brasil,2025,8.3,% ante 2024,BEN 2026,PDF p.16,Atribuída ao avanço da geração elétrica a gás
+variacao_geracao_gas,Brasil,2025,13.7,% ante 2024,BEN 2026,PDF p.16,
+destino_geracao_eletrica,Brasil,2025,36.8,% do gás consumido,BEN 2026,PDF p.16 (Gráfico 1.1.5),35.0% em 2024
+producao_energia_primaria,Brasil,2025,64944,mil tep,BEN 2026,PDF p.17 (Tabela 1.2.a),37610 em 2016
+oferta_interna_energia,Brasil,2025,33920,mil tep,BEN 2026,PDF p.18 (Tabela 1.3.a),35569 em 2016
+consumo_final_energetico,Brasil,2025,15037,mil tep,BEN 2026,PDF p.21 (Tabela 1.4.a),17189 em 2016
+preco_citygate_projecao_final,Brasil,2036,11,US$/MMBtu,EPE Caderno CD-EPE-DPG-SPG-2026-01,PDF p.18,PROJEÇÃO; preço médio na entrega (citygate) sem margem de distribuição nem tributos; o gráfico da p.15–16 não traz valores legíveis em texto
+tarifa_transporte_premissa,Brasil,2026–2036,1.96,US$/MMBtu,EPE Caderno CD-EPE-DPG-SPG-2026-01,PDF p.14,Premissa: tarifa média equivalente postal
+brent_premissa_a_partir_2030,Mundo,2030–2036,83–88,US$/barril,EPE Caderno CD-EPE-DPG-SPG-2026-01,PDF p.16,PROJEÇÃO da EPE
+henry_hub_premissa,Mundo,2031–2036,5.0–5.5,US$/MMBtu,EPE Caderno CD-EPE-DPG-SPG-2026-01,PDF p.16,PROJEÇÃO (EIA); contratos indexados ao HH perderiam competitividade a partir de 2031
+upgn_boaventura,Brasil,2026,21,milhões de m3/dia,EPE Caderno CD-EPE-DPG-SPG-2026-01,PDF p.9,Capacidade de processamento do Complexo Boaventura (RJ)
+ttf_media_mar_out,Europa,2026,20,US$/MMBtu,IEA Global Gas Security Review 2026,PDF p.7,Observado parcial (mar–out/2026); ~70% acima do ano anterior ('almost 70%')
+gnl_spot_asia_media_mar_out,Ásia,2026,21.5,US$/MMBtu,IEA Global Gas Security Review 2026,PDF p.7,Observado parcial (mar–out/2026); ~80% acima do ano anterior
+demanda_global_variacao,Mundo,2026,-1.5,% (≈ −65 bcm),IEA Global Gas Security Review 2026,PDF p.7,PREVISÃO IEA para 2026; terceiro recuo anual desde 2020
+oferta_gnl_variacao,Mundo,2026,-3,% (≈ −20 bcm),IEA Global Gas Security Review 2026,PDF p.7,PREVISÃO sob a hipótese de Ormuz largamente interrompido até o fim de 2026
+estoques_ue,União Europeia,2026/27,2013,ano (menor nível desde),IEA Global Gas Security Review 2026,PDF p.8,Estoques no início do inverno 2026/27 nos menores níveis desde 2013; simulação IEA: <10% da capacidade até o fim de mar/2027 em cenário frio
+perdas_gnl_acumuladas,Mundo,2026–2030,150,bcm,IEA Global Gas Security Review 2026,PDF p.9,ESTIMATIVA IEA; inclui danos em Ras Laffan (Catar)
+contratos_gnl_destino_flexivel,Mundo,2025,50,% (mais de),IEA Global Gas Security Review 2026,PDF p.9,29% em 2016 ('more than 50% in 2025')
+contratos_gnl_indexados_gas_hibridos,Mundo,2025,45,% dos contratos de GNL,IEA Global Gas Security Review 2026,PDF p.9,Cerca de 30% em 2016
+comercio_global_gas,Mundo,2025,899,bcm,EI Statistical Review 2026,PDF p.47,Alta de 1.7%; GNL 495 bcm (+6.5%); NÃO bate com o total de GNL da tabela de exportações (578.5 bcm; ver FONTES.md)
+europa_importacoes_gas,Europa,2025,267,bcm,EI Statistical Review 2026,PDF p.47,"GNL 169 bcm (+34.1%); gasoduto 96 bcm (−14.8%); maior importador mundial"
+gnl_eua_exportacoes,EUA,2025,147,bcm,EI Statistical Review 2026,PDF p.47,Alta de 27%
+gnl_catar_exportacoes,Catar,2025,111,bcm,EI Statistical Review 2026,PDF p.47,Alta de 3.8%
+emissoes_co2_queima_gas,Brasil,2025,2.1,Mt CO2,EI Statistical Review 2026,PDF p.28,1.5 em 2024; mundo 328.3 em 2025 (301.7 em 2015). Mede queima (flaring); NÃO inclui metano fugitivo
+emissoes_co2_queima_gas,Mundo,2025,328.3,Mt CO2,EI Statistical Review 2026,PDF p.28,301.7 em 2015
+oferta_interna_participacao_vendas,Brasil,2025,53.6,% da oferta interna,ANP Anuário 2026,secao-3 §3.5.1,Vendas
+oferta_interna_participacao_consumo_proprio,Brasil,2025,31.3,% da oferta interna,ANP Anuário 2026,secao-3 §3.5.1,"Consumo próprio total (produção, refino, processamento, movimentação)"
+oferta_interna_participacao_importadores,Brasil,2025,9.9,% da oferta interna,ANP Anuário 2026,secao-3 §3.5.1,Importadores
+oferta_interna_participacao_lgn,Brasil,2025,5.1,% da oferta interna,ANP Anuário 2026,secao-3 §3.5.1,Ofertado como LGN
+nova_capacidade_exportacao_gnl,Mundo,2030,300,bcm/ano,IEA WEO 2025 (sumário executivo em português),PDF p.9,PROJEÇÃO: operação a partir de 2030; +50% da oferta global de GNL; cerca de metade nos EUA e 20% no Catar
+perdas_gnl_equivalentes_nova_oferta,Mundo,2026–2030,15,% da nova oferta de GNL,IEA Global Gas Security Review 2026,PDF p.9,ESTIMATIVA IEA para perdas decorrentes do conflito no Oriente Médio
+entrada_novos_projetos_oferta,Brasil,a partir de 2028,,—,EPE Caderno CD-EPE-DPG-SPG-2026-01,PDF p.13,"Gás associado do pós-sal (ex.: SEAP) e não associado do pré-sal (ex.: Raia), conforme PDE 2035; PROJEÇÃO"
+normas_citadas_epe,Brasil,2024–2025,,—,EPE Caderno CD-EPE-DPG-SPG-2026-01,PDF p.9,"Decreto 12.153/2024, Lei 14.993/2024 e Decreto 12.614/2025; leilão LRCAP 2026 (p.13)"
+variacao_producao_primaria_2016_2025,Brasil,2016–2025,72.7,%,BEN 2026 (cálculo próprio),PDF p.17,"37610 → 64944 mil tep; a ANP §2.1.4 informa o mesmo acumulado de 72,7% em m3"
+variacao_oferta_interna_2016_2025,Brasil,2016–2025,-4.6,%,BEN 2026 (cálculo próprio),PDF p.18,35569 → 33920 mil tep
+variacao_consumo_final_2016_2025,Brasil,2016–2025,-12.5,%,BEN 2026 (cálculo próprio),PDF p.21,17189 → 15037 mil tep
+participacao_gnl_importacoes,Europa,2015,19.7,% das importações,EI 2026 (cálculo próprio),PDF p.53,"52,7 de 267,7 bcm"
+participacao_gnl_importacoes,Europa,2025,63.7,% das importações,EI 2026 (cálculo próprio),PDF p.53,"169,1 de 265,6 bcm (o texto da p.47 fala em 267 bcm; ver FONTES.md)"
+participacao_eua_russia_producao,Mundo,2025,40.1,% da produção,EI 2026 (cálculo próprio),PDF p.48,"(1073,7 + 609,4) / 4196,5"
+variacao_demanda_regional_2026,Oriente Médio,2026,-10,% (aprox.),IEA Global Gas Security Review 2026,PDF p.8,PREVISÃO
+variacao_demanda_regional_2026,Ásia-Pacífico,2026,-1.5,%,IEA Global Gas Security Review 2026,PDF p.8,PREVISÃO
+variacao_demanda_regional_2026,África,2026,5,% (aprox.),IEA Global Gas Security Review 2026,PDF p.8,PREVISÃO; região com pouca dependência de GNL importado
+variacao_demanda_regional_2026,América Central e do Sul,2026,aumento,—,IEA Global Gas Security Review 2026,PDF p.8,PREVISÃO qualitativa: menor geração hidrelétrica sustenta mais gás na geração elétrica

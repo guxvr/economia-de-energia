@@ -1,3 +1,128 @@
-\section{An\'alise setorial: g\'as natural}
+% T04 -- Análise econômica do gás natural (Heitor)
+% Todos os números vêm de dados/gas_natural/ (ver FONTES.md para fonte, página, unidade e ressalvas).
+\providecommand{\mtres}{m\textsuperscript{3}}
 
-Se\c{c}\~ao reservada para integrar dados de reservas, produ\c{c}\~ao, consumo, com\'ercio e pre\c{c}os de g\'as natural no Brasil e no mundo, seguindo o protocolo de indicadores comuns.
+\section{Análise setorial: gás natural}
+
+\subsection{Cadeia produtiva e usos}
+O gás natural é uma mistura de hidrocarbonetos encontrada em bacias sedimentares como gás associado ao petróleo (em solução ou em capa) ou como gás não associado, livre no reservatório. Por isso, a exploração e a produção seguem a lógica do petróleo e costumam ser feitas pelas mesmas empresas \cite{pinto2007}. A cadeia tem quatro etapas: exploração e produção, processamento em Unidades de Processamento de Gás Natural (UPGN), transporte por gasodutos de alta pressão e distribuição, após a entrega nos \emph{city gates}; a estocagem pode ocorrer ao longo do trajeto \cite{pinto2007}. Diferentemente do petróleo, o gás seco dispensa o refino \cite{pinto2007}. A Tab.~\ref{tab:cadeia} associa cada etapa a uma característica econômica e a um indicador brasileiro de 2025.
+
+\begin{table*}[t]
+\centering
+\caption{Cadeia do gás natural: característica econômica e indicador do Brasil}
+\label{tab:cadeia}
+\footnotesize
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\begin{tabular}{L{3.2cm}L{6.6cm}L{6.4cm}}
+\toprule
+Etapa & Característica econômica & Brasil, 2025 \\
+\midrule
+Exploração e produção & Mesma tecnologia e, em geral, as mesmas empresas do petróleo; o gás associado acompanha a produção de óleo \cite{pinto2007} & Produção bruta de 65,4 bi \mtres{}, com 90,8\% de gás associado; pré-sal com 78,2\% \cite{anp2026} \\
+Processamento (UPGN) & Retira água, propano, butano e líquidos; o gás seco sai pronto para venda, sem refino \cite{pinto2007} & 22,4 bi \mtres{} processados, 50,3\% da capacidade de 121,9 milhões de \mtres{}/dia em 14 polos \cite{anp2026} \\
+Transporte & Investimento elevado, baixa flexibilidade e grandes economias de escala \cite{pinto2007} & 118 dutos, com 11,8 mil km \cite{anp2026} \\
+Distribuição e comercialização & Entrega nos \emph{city gates} e redes locais; contratos de longo prazo com as concessionárias \cite{pinto2007,epe2026gas} & Vendas de 18,6 bi \mtres{}; Sudeste com 57,5\% \cite{anp2026} \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+O gás compete com derivados de petróleo e com o carvão na indústria, na geração elétrica, nos transportes e como matéria-prima petroquímica \cite{pinto2007}. Sua desvantagem é a baixa densidade energética: o volume necessário para a mesma energia é muito maior que o do petróleo, o que encarece o transporte. As alternativas ao duto são o gás natural liquefeito (GNL) e o comprimido \cite{pinto2007}. A escolha da tecnologia define o grau de integração espacial e, portanto, a estrutura de mercado.
+
+\subsection{Panorama mundial}
+Em 2025, a produção mundial foi de 4\,196,5~bcm e o consumo, de 4\,186,0~bcm, contra 3\,514,6~bcm e 3\,470,5~bcm em 2015, um crescimento médio de 1,8\% ao ano na produção \cite{ei2026}. Os Estados Unidos produziram 1\,073,7~bcm (25,6\% do total), seguidos pela Rússia (609,4~bcm) e pelo Irã (264,8~bcm) \cite{ei2026}. No consumo, o destaque é a China: de 194,7~bcm em 2015 para 441,9~bcm em 2025 \cite{ei2026}. As reservas provadas somavam 208,8 trilhões de \mtres{} em 2025, concentradas no Oriente Médio (39,9\%) e na Comunidade dos Estados Independentes (31,3\%); Rússia, Irã e Catar detinham juntos 50,1\% \cite{anp2026}. A Fig.~\ref{fig:prodcons} mostra a evolução de produção e consumo.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figuras/gas_producao_consumo.pdf}
+\caption{Produção e consumo de gás natural, 2015--2025 (bcm/ano). (a)~Mundo. (b)~Brasil, com a importação total. As escalas são distintas. Dados históricos; a produção do Brasil nesta série exclui gás reinjetado e queimado. Fonte: \cite{ei2026}.}
+\label{fig:prodcons}
+\end{figure}
+
+O comércio internacional somou 899~bcm em 2025, dos quais 495~bcm em GNL, com alta de 6,5\% \cite{ei2026}. A Fig.~\ref{fig:comercio} mostra a mudança estrutural. Os Estados Unidos passaram de 0,7~bcm exportados como GNL em 2015 para 147,0~bcm em 2025, a Austrália foi de 39,9 para 104,8~bcm, e o Catar manteve-se entre 103,6 e 111,0~bcm \cite{ei2026}. Na Europa, maior importadora, o GNL subiu de 52,7 para 169,1~bcm e a importação por gasoduto caiu de 215,0 para 96,4~bcm; a participação do GNL nas importações passou de 19,7\% para 63,7\% (cálculo próprio a partir de \cite{ei2026}). As exportações russas por gasoduto recuaram de 194,2 para 101,6~bcm \cite{ei2026}. Como o GNL exige liquefação e regaseificação \cite{pinto2007}, essa troca desloca o risco do duto, de custo afundado e destino fixo, para um mercado de cargas mais flexíveis, em que a parcela de contratos com destino livre já passa de 50\% \cite{iea2026gas}. O gás deixou de ser apenas um mercado de redes regionais rígidas e passou a ter um componente global flexível.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figuras/gas_comercio.pdf}
+\caption{Comércio de gás natural, 2015--2025 (bcm/ano). (a)~Importações da Europa por gasoduto e GNL. (b)~Exportações de GNL de Estados Unidos, Catar e Austrália. Dados históricos. Fonte: \cite{ei2026}.}
+\label{fig:comercio}
+\end{figure}
+
+\subsection{Brasil: oferta, importação e demanda}
+A produção brasileira depende da definição usada. Pela série do Energy Institute, que exclui gás queimado e reinjetado, foi de 26,6~bcm em 2025 \cite{ei2026}. Pela ANP, que mede a produção bruta, foi de 65,4 bilhões de \mtres{}, com alta de 16,7\% e 16.º ano consecutivo de crescimento \cite{anp2026}. O BEN registra 179,2 milhões de \mtres/dia, valor equivalente ao da ANP \cite{ben2026}. A diferença é econômica: 54,4\% da produção foi reinjetada, 2,8\% foi queimada ou perdida e o aproveitamento foi de 42,8\% \cite{anp2026}. Cerca de 90,8\% do gás é associado, ou seja, sua oferta acompanha o petróleo e não a demanda de gás; o gás não associado soma pouco mais de 6 bilhões de \mtres{}, com Amazonas, Maranhão e São Paulo à frente \cite{anp2026}. O pré-sal responde por 78,2\% da produção e a Bacia de Santos, por 77,7\% \cite{anp2026}.
+
+As reservas provadas nacionais são de 573,3 bilhões de \mtres{}, e a relação reserva/produção caiu de 9,7 para 8,8 anos em 2025 \cite{anp2026}. O processamento atingiu 22,4 bilhões de \mtres{}, ou 50,3\% da capacidade instalada de 14 polos, e a malha dispõe de 118 dutos, com 11,8 mil km \cite{anp2026}. A capacidade ociosa de processamento e o fato de apenas 42,8\% do gás ser aproveitado sugerem que a restrição está na infraestrutura de escoamento e não no recurso. Essa leitura é compatível com a EPE, para quem a expansão do escoamento, do processamento e do transporte será fundamental para aproveitar a oferta doméstica \cite{epe2026gas}.
+
+A importação por gasoduto e GNL caiu de 18,0~bcm em 2015 para 7,0~bcm em 2025 \cite{ei2026}. Segundo a ANP, 4,5 bilhões de \mtres{} vieram da Bolívia e 2,5 bilhões, de GNL, sendo 90,1\% do GNL dos Estados Unidos \cite{anp2026}. A importação custou cerca de US\$ 1,1 bilhão, a US\$ 234,73 por mil \mtres{} em média, e o GNL saiu a US\$ 372,55 por mil \mtres{} \cite{anp2026}. O consumo no Brasil foi de 33,2~bcm em 2025, 0,8\% do total mundial e menos que os 42,9~bcm de 2015 \cite{ei2026}.
+
+Pelo lado da demanda, o BEN mostra que o gás responde por cerca de 10\% da oferta interna de energia. Em 2025 a demanda cresceu 8,3\%, puxada pela geração elétrica a gás (+13,7\%), que absorveu 36,8\% do gás consumido \cite{ben2026}. Já as vendas das distribuidoras caíram 1,6\%, para 18,6 bilhões de \mtres{}, com média de $-3{,}9$\% ao ano entre 2016 e 2025, e o Sudeste concentra 57,5\% do volume \cite{anp2026}. As duas métricas não são equivalentes, pois a primeira inclui a geração elétrica e a segunda, apenas as vendas. A oferta interna de 34,6 bilhões de \mtres{} se divide em 53,6\% para vendas, 31,3\% para consumo próprio, 9,9\% para importadores e 5,1\% como líquidos de gás natural \cite{anp2026}.
+
+A Fig.~\ref{fig:ben} expõe um descompasso. Entre 2016 e 2025, a produção de energia primária de gás natural cresceu 72,7\% (de 37\,610 para 64\,944 mil tep), mas a oferta interna caiu 4,6\% (de 35\,569 para 33\,920 mil tep) e o consumo final energético recuou 12,5\% (de 17\,189 para 15\,037 mil tep), variações calculadas a partir do BEN \cite{ben2026}. O aumento da produção, portanto, não chegou ao consumidor final. A Fig.~\ref{fig:destino} mostra que só 42,8\% da produção bruta de 2025 foi aproveitada e que, da oferta interna, 31,3\% ficou na própria cadeia de petróleo e gás \cite{anp2026}. Como o gás é majoritariamente associado, sua oferta acompanha a produção de petróleo e não a demanda por gás; isso sugere que o limite à monetização do recurso está no mercado e na infraestrutura de escoamento, e não na produção.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figuras/gas_brasil_ben.pdf}
+\caption{Gás natural no Brasil, 2016--2025: produção de energia primária, oferta interna e consumo final energético (índice, 2016 = 100; unidade original: mil tep). Dados históricos. Fonte: \cite{ben2026}, Tabelas 1.2.a, 1.3.a e 1.4.a.}
+\label{fig:ben}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figuras/gas_destino_br.pdf}
+\caption{Brasil, 2025: destino da produção bruta e composição da oferta interna de gás natural (\% do total; a oferta soma 99,9\% por arredondamento na fonte). Fonte: \cite{anp2026}.}
+\label{fig:destino}
+\end{figure}
+
+A Tab.~\ref{tab:gas} resume os indicadores comuns.
+
+\begin{table}[t]
+\centering
+\caption{Indicadores de gás natural, Brasil e mundo, 2025}
+\label{tab:gas}
+\footnotesize
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\begin{tabular}{L{2.0cm}L{2.9cm}L{2.9cm}}
+\toprule
+Indicador & Brasil & Mundo \\
+\midrule
+Reservas provadas & 573,3 bi \mtres{} (ANP); 29.ª posição (2024) & 208,8 tri \mtres{} \\
+Produção (bcm) & 26,6 (EI); 65,4 bruta (ANP) & 4\,196,5 (EI) \\
+Consumo (bcm) & 33,2 & 4\,186,0 \\
+Comércio (bcm) & Importação 7,0 (gasoduto 4,3; GNL 2,7) & Inter-regional 899 (GNL 495) \\
+Preço de referência & Importação: US\$ 234,73/mil \mtres{} (ANP) & HH 3,53; TTF 11,89; JKM 12,16 US\$/MMBtu \\
+\bottomrule
+\end{tabular}
+
+\smallskip
+\raggedright\footnotesize
+Fontes: \cite{ei2026,anp2026}. As bases de reservas (ANP nacional e EI/Eni) e de produção diferem e não foram combinadas para calcular participações. Preços em dólares nominais, sem conversão de unidade entre as colunas.
+\end{table}
+
+\subsection{Formação de preços, contratos e estrutura de mercado}
+Oferta e demanda de gás tendem à inelasticidade, por razões distintas \cite{pinto2007}. Do lado da demanda, consumidores domésticos e comerciais que investiram em equipamentos a gás não têm combustível alternativo nem possibilidade de estocagem, e por isso não reagem de imediato às variações de preço \cite{pinto2007}. A isso se somam custos de investimento muito superiores aos operacionais nos dutos e economias de escala, pois montagem e desapropriação variam sobretudo com a distância, e não com o volume \cite{pinto2007}. O resultado é um segmento de rede com características de monopólio natural e custos afundados, que funcionam como barreira à entrada no transporte e favorecem a concentração, e que torna a contratação de longo prazo um instrumento central de gestão de risco. A concentração também marca a oferta mundial: Estados Unidos e Rússia respondem por 40,1\% da produção (cálculo a partir de \cite{ei2026}) e Rússia, Irã e Catar, por 50,1\% das reservas \cite{anp2026}.
+
+Nesse arranjo, os contratos de longo prazo trazem cláusulas \emph{take-or-pay} e \emph{ship-or-pay} e renegociações periódicas de preço \cite{pinto2007}. A renda mineral permite subsídios cruzados entre produção, transporte e distribuição \cite{pinto2007}. Segundo a IEA, a parcela de contratos de GNL com destino flexível subiu de 29\% em 2016 para mais de 50\% em 2025, e a de contratos indexados ao gás ou híbridos, de cerca de 30\% para 45\% \cite{iea2026gas}. A indexação deixa de ser exclusivamente ao petróleo, e os fluxos reagem mais a sinais de preço.
+
+A Fig.~\ref{fig:precos} mostra os preços de referência. Entre 2015 e 2025 o Henry Hub passou de US\$ 2,61 para 3,53 por MMBtu, o TTF de 6,45 para 11,89 e o JKM de 7,45 para 12,16 \cite{ei2026}. O pico de 2022 chegou a US\$ 37,09 no TTF e 33,98 no JKM, contra 6,38 no Henry Hub \cite{ei2026}. O Henry Hub, referência do mercado americano, ficou bem abaixo dos preços de hubs e de GNL que dependem de importação, o que indica mercados regionais ainda segmentados. Em 2026, a IEA estima médias de cerca de US\$ 20 no TTF e 21,5 no GNL spot asiático entre março e outubro, e o valor é parcial, não uma série anual \cite{iea2026gas}.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figuras/gas_precos.pdf}
+\caption{Preços de referência do gás natural, 2015--2025 (US\$/MMBtu nominais). Os marcadores vazados em 2026 são médias de março a outubro da IEA, não anuais. Fonte: \cite{ei2026,iea2026gas}.}
+\label{fig:precos}
+\end{figure}
+
+No Brasil, a quase totalidade das fórmulas de preço da molécula nos contratos com as concessionárias estaduais, vigentes em maio de 2026, é indexada ao Brent ou ao Henry Hub, com preponderância do Brent \cite{epe2026gas}. A Petrobras adotou um mecanismo de suavização para reduzir a volatilidade externa, e sua parcela na comercialização do gás da malha integrada diminui gradualmente, de forma mais acentuada em 2025 \cite{epe2026gas}. Para o preço no \emph{citygate}, que exclui margem de distribuição e tributos, a EPE projeta pico em 2026 e convergência para cerca de US\$ 11/MMBtu ao final do horizonte, com tarifa de transporte média de US\$ 1,96/MMBtu e Brent entre US\$ 83 e 88 por barril a partir de 2030 \cite{epe2026gas}. Trata-se de projeção condicionada às formas atuais de contratação, não de previsão.
+
+\subsection{Regulação e mercado brasileiro}
+O Caderno da EPE cita avanços no arcabouço legal, como o Decreto n.º 12.153/2024, a Lei n.º 14.993/2024 e o Decreto n.º 12.614/2025, além da reestruturação, aprovada pelo CNPE, da política de comercialização do gás da União para priorizar as indústrias de base \cite{epe2026gas}. O estudo também aponta mais agentes e produtos de contratação, expansão do mercado livre e transações \emph{spot} com desconto frente aos contratos longos, ainda pequenas em volume \cite{epe2026gas}. A ANP calcula mensalmente o preço de referência do gás de cada campo, usado nas participações governamentais \cite{anp2026}. Para a EPE, mais concorrência, liquidez e transparência nas negociações tendem a reduzir a assimetria de informação entre os agentes e a favorecer a eficiência na formação de preços \cite{epe2026gas}.
+
+Do lado da oferta, a EPE prevê novos projetos de gás associado no pós-sal e de gás não associado no pré-sal a partir de 2028 e novas térmicas contratadas no leilão LRCAP 2026 \cite{epe2026gas}. Em um sistema predominantemente hidráulico, as térmicas funcionavam como \emph{backup} \cite{pinto2007}. A elevação da geração a gás em 2025 \cite{ben2026} e as novas usinas indicam que sua demanda tende a ficar mais estrutural, o que aumenta a exposição do preço de energia elétrica ao preço do gás. A IEA prevê, para 2026, aumento da demanda de gás na América Central e do Sul, com menor geração hidrelétrica elevando o uso de gás na geração elétrica \cite{iea2026gas}, o que ilustra a função de complemento das térmicas.
+
+\subsection{Segurança energética, transição e emissões}
+O choque de 2026 mostra a vulnerabilidade de um mercado em que parte relevante da oferta transita por pontos únicos. Segundo a IEA, a interrupção dos fluxos de GNL pelo Estreito de Ormuz levou a demanda global a recuar mais de 1\% de janeiro a setembro e a prever queda de cerca de 1,5\% (cerca de 65~bcm) em 2026, terceira redução anual desde 2020, enquanto a oferta de GNL cairia 3\% sob a hipótese de interrupção até o fim do ano \cite{iea2026gas}. A IEA também aponta que os estoques da União Europeia entram no inverno 2026/27 nos níveis mais baixos desde 2013, e estima perdas acumuladas de GNL de 150~bcm entre 2026 e 2030 \cite{iea2026gas}. Altos preços induziram a troca de gás por carvão na geração na Ásia \cite{iea2026gas}. A queda não é uniforme: a IEA prevê recuo de cerca de 10\% no Oriente Médio e de 1,5\% na Ásia-Pacífico, e alta de cerca de 5\% na África, região com pouca dependência de GNL importado \cite{iea2026gas}. Para o Brasil, o impacto é sobretudo de preço, dado que os contratos são indexados ao Brent e ao Henry Hub \cite{epe2026gas}, e a dependência física é limitada: a importação caiu para 7,0~bcm \cite{ei2026} e vem majoritariamente da Bolívia e dos Estados Unidos \cite{anp2026}.
+
+Em prazo mais longo, o World Energy Outlook 2025 indica que uma capacidade anual de exportação de GNL de 300~bcm, sem precedentes, deve começar a operar em 2030, aumento de 50\% da oferta global, com cerca de metade nos Estados Unidos \cite{iea2025weo}. A demanda poderia não absorver todo esse volume, devido à difusão de renováveis, energia nuclear e políticas de eficiência \cite{iea2025weo}. Esse quadro limita o papel do gás como combustível de transição e eleva o risco de ativos de infraestrutura sem utilização plena. Cabe ressalvar que os choques de 2026 podem atrasar essa oferta, já que as perdas estimadas pela IEA equivalem a 15\% da nova oferta de GNL prevista para 2026--2030 \cite{iea2026gas}.
+
+Quanto às emissões, o gás tem baixo teor de enxofre e de particulados e, por isso, menor poluição local que outros combustíveis fósseis \cite{pinto2007}. Entretanto, as fontes reunidas trazem apenas as emissões de CO\textsubscript{2} da queima em tochas: 328,3~Mt no mundo em 2025, contra 301,7~Mt em 2015, e 2,1~Mt no Brasil \cite{ei2026}. As emissões fugitivas de metano, central na avaliação climática do gás, não constam nelas e não foram estimadas.
+
+\subsection{Limitações da análise}
+Primeiro, as séries do Energy Institute e da ANP/BEN seguem metodologias distintas, como o tratamento do gás reinjetado e queimado, e por isso não foram misturadas. Segundo, os dados de 2026 da IEA são médias parciais ou previsões, e as projeções da EPE são condicionais a hipóteses. Terceiro, não foram encontrados nas fontes locais custos de capital de infraestrutura, elasticidades-preço medidas, séries históricas de preço no Brasil em US\$/MMBtu comparáveis às internacionais e valores numéricos da curva de projeção do \emph{citygate}. Por fim, o comércio de GNL aparece com 495~bcm no texto do Energy Institute e 578,5~bcm na tabela de exportações, e a causa dessa diferença não foi verificada; cada afirmação usa uma só fonte.
