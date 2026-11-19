@@ -6,7 +6,7 @@
     const section = document.createElement('section');
     section.id = slide.id;
     section.className = 'energy-slide ' + (slide.className || '');
-    section.setAttribute('aria-label', slide.title);
+    section.setAttribute('aria-label', slide.title.replace(/<br\s*\/?\s*>/gi, ' ').replace(/<[^>]*>/g, ''));
     section.innerHTML = '<div class="slide-inner"><p class="eyebrow">' + slide.chapter + '</p>' +
       '<h1>' + slide.title + '</h1>' + slide.html +
       '<footer class="slide-footer"><span>' + slide.source + '</span><span class="page-count">' +
