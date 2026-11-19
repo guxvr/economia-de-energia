@@ -1,4 +1,4 @@
-:root { --paper:#f1efe5; --ink:#142d2b; --surface:#1c3835; --muted:#b5c6bd; --accent:#b9d299; --rule:#52645a; --r-background-color:var(--ink); --r-main-font:Arial,Helvetica,sans-serif; --r-main-color:var(--paper); --r-main-font-size:28px; --r-link-color:var(--accent); --r-selection-background-color:#52645a; }
+:root { --paper:#202b36; --ink:#faf9f6; --surface:#fff; --muted:#596571; --accent:#275a78; --rule:#cbd1d5; --r-background-color:var(--ink); --r-main-font:Arial,Helvetica,sans-serif; --r-main-color:var(--paper); --r-main-font-size:28px; --r-link-color:var(--accent); --r-selection-background-color:#d9e7ef; }
 * { box-sizing:border-box; }
 body,body.reveal-viewport { margin:0; background:var(--ink); color:var(--paper); font-family:Arial,Helvetica,sans-serif; }
 button,a,input { -webkit-tap-highlight-color:transparent; }
@@ -70,5 +70,5 @@ button:focus-visible,a:focus-visible,input:focus-visible { outline:3px solid var
 .fallback-mode .site-bar,.fallback-mode .utility-bar { display:none; }
 @media(max-width:650px) { .site-bar { padding:12px 15px; font-size:9px; } .site-bar span:nth-child(2),.keyboard-hint { display:none; } .utility-bar { left:15px; gap:14px; font-size:10px; } }
 @media(prefers-reduced-motion:reduce) { *,*::before,*::after { animation:none!important; transition:none!important; scroll-behavior:auto!important; } }
-@media print { body,body.reveal-viewport,.reveal .pdf-page { background:#fff!important; color:#142d2b; } .site-bar,.utility-bar,.skip-link { display:none!important; } :root { --ink:#fff; --paper:#142d2b; --muted:#40534a; --accent:#315f40; --rule:#b2bcb5; } .reveal h1 { color:#142d2b; } .slide-inner { print-color-adjust:exact; } .slide-footer { bottom:18px; } }
+@media print { body,body.reveal-viewport,.reveal .pdf-page { background:#fff!important; color:#202b36; } .site-bar,.utility-bar,.skip-link { display:none!important; } :root { --ink:#fff; --paper:#202b36; --muted:#596571; --accent:#275a78; --rule:#cbd1d5; } .reveal h1 { color:#202b36; } .slide-inner { print-color-adjust:exact; } .slide-footer { bottom:18px; } }
 html.print-pdf .site-bar,html.print-pdf .utility-bar { display:none; }
