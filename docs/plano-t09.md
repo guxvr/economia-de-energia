@@ -33,3 +33,7 @@ Slides Reveal.js em `slides/`, conteúdo separado dos gráficos, PDF, cópia off
 Revisar conteúdo com os cinco integrantes; incorporar feedback da professora; revisar fontes/recortes; ajustar visual e notas; conferir links e publicação; ensaiar em até 30 minutos. Não marcar a T09 concluída antes dessa revisão.
 
 O plano local registra a ampliação de escopo; a edição remota da issue #10 permanece pendente por falta de autenticação de escrita no GitHub.
+
+## Resultado da integração
+
+As três frentes foram integradas na branch atual. A [revisão independente](revisao-t09.md) conferiu os dados com o relatório e corrigiu problemas de projeção e impressão. A execução final de `npm test` passou nas duas verificações (servidor e apresentação offline). O PDF regenerado contém 18 páginas, com os 18 rodapés conferidos. As worktrees foram preservadas para rastrear as contribuições.
