@@ -52,8 +52,8 @@ window.SLIDE_CONTENT = [
     source: 'Relatório, seções 6.2.1 e 6.2.3–4 · pp. 14 e 16–18', notes: 'Tempo: 1,5 min. Definir GNL e explicar por que o gás possui mercados historicamente mais regionais que o petróleo.'
   },
   {
-    id: 'gas-aproveitamento', chapter: '04 / Gás natural no Brasil', title: 'Produção bruta não é<br>oferta disponível ao consumidor.',
-    html: '<div class="split"><div><div class="stat"><span class="value">54,4%</span><span class="label">da produção bruta foi reinjetada</span><span class="detail">Brasil · 2025 · ANP</span></div></div><div><h2>Gargalos de aproveitamento</h2><ul><li>Produção predominantemente associada ao petróleo.</li><li>Limitações no escoamento e no aproveitamento comercial.</li><li>42,8% da produção bruta foi aproveitada; 2,8% foi queimada ou perdida.</li></ul></div></div><p class="callout">Séries de produção bruta e de produção que exclui reinjeção e queima têm definições diferentes.</p>',
+    id: 'gas-aproveitamento', chapter: '04 / Gás natural no Brasil', title: 'Para onde foi o gás produzido em 2025?',
+    html: '<div class="split equal"><div class="stat"><span class="value">54,4%</span><span class="label">da produção bruta voltou aos reservatórios</span><span class="detail">Reinjeção de gás natural · Brasil · ANP</span></div><div><h2>Outros destinos</h2><p>O aproveitamento foi de <strong>42,8%</strong> da produção bruta. A queima e as perdas somaram <strong>2,8%</strong>.</p><p class="small muted">Grande parte do gás é extraída junto com o petróleo. A capacidade de escoamento limita o volume que chega ao mercado.</p></div></div><p class="callout">Para comparar séries, confira se o volume informado inclui a reinjeção e a queima.</p>',
     source: 'Relatório, seção 6.2.2 · p. 15 · ANP (2026); EI (2026); EPE (2026)', notes: 'Tempo: 1,5 min. Não apresentar reinjeção como desperdício integral: ela tem funções operacionais. A conclusão econômica é que aumento da produção bruta não equivale a igual aumento da oferta comercial.'
   },
   {

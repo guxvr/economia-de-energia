@@ -67,11 +67,13 @@
           svg.append(svgEl('text', { x: 64, y: y(v) + 5, 'text-anchor': 'end' }, v + '%'));
         });
         data.years.forEach((year, i) => svg.append(svgEl('text', { x: x(i), y: 254, 'text-anchor': 'middle' }, year)));
-        active.forEach((series, seriesIndex) => {
+        active.forEach(series => {
+          const seriesOffset = (data.series.indexOf(series) - (data.series.length - 1) / 2) * 13;
           // Sparse observations remain discrete; no line implies unobserved annual values.
           series.values.forEach((v, i) => {
             if (v == null || (!full && i > index)) return;
-            const point = svgEl('circle', { cx: x(i) + (seriesIndex - 1.5) * 13, cy: y(v), r: 6, fill: series.color, stroke: 'currentColor', 'stroke-width': 1 });
+            const pointX = x(i) + seriesOffset;
+            const point = svgEl('circle', { cx: pointX, cy: y(v), r: 6, fill: series.color, stroke: 'currentColor', 'stroke-width': 1 });
             point.append(svgEl('title', {}, series.label + ', ' + data.years[i] + ': ' + fmt(v) + '%'));
             if (!full) {
               point.setAttribute('tabindex', '0'); point.setAttribute('role', 'button');
@@ -81,7 +83,7 @@
               point.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); inspect(); } });
             }
             svg.append(point);
-            if (full) svg.append(svgEl('text', { x: x(i) + 18, y: y(v) + (seriesIndex % 2 ? 17 : -9), fill: series.color }, fmt(v)));
+            if (full) svg.append(svgEl('text', { x: pointX + 11, y: y(v) + 5 }, fmt(v)));
           });
         });
       } else {
