@@ -1,5 +1,7 @@
 # Economia de Energia
 
+A [apresentação inicial interativa](slides/README.md) está em `slides/`, com dados separados, cópia offline e exportação PDF. O [plano da T09](docs/plano-t09.md) registra a divisão multi-agente e a continuidade pelo Druck após o feedback da professora.
+
 Projeto acadêmico sobre a economia dos combustíveis fósseis, desenvolvido para a disciplina de Economia de Energia. O trabalho compara petróleo, gás natural e carvão mineral no Brasil e no mundo, relacionando dados setoriais a conceitos econômicos.
 
 ## Objetivo
