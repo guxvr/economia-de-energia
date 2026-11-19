@@ -141,15 +141,16 @@
     instances.push({ container, stop, update });
   }
   let revealBound = false;
-  function mountAll() {
+  function mountAll(deck) {
     document.querySelectorAll('[data-energy-chart]').forEach(mount);
-    if (window.Reveal && typeof window.Reveal.on === 'function' && !revealBound) {
+    const reveal = deck || window.energyDeck || window.Reveal;
+    if (reveal && typeof reveal.on === 'function' && !revealBound) {
       revealBound = true;
-      window.Reveal.on('slidechanged', event => instances.forEach(instance => {
+      reveal.on('slidechanged', event => instances.forEach(instance => {
         if (!event.currentSlide.contains(instance.container)) instance.stop();
         else instance.update();
       }));
-      window.Reveal.on('paused', () => instances.forEach(instance => instance.stop()));
+      reveal.on('paused', () => instances.forEach(instance => instance.stop()));
     }
   }
   document.addEventListener('visibilitychange', () => { if (document.hidden) instances.forEach(instance => instance.stop()); });
