@@ -16,6 +16,19 @@ test('apresentação offline: navegação, dados, reprodução, teclado e impres
     await page.goto(url);
     await page.waitForFunction(() => window.energyDeck?.isReady());
     assert.ok(await page.locator('.slides > section').count() >= 16);
+    const overlaps = await page.evaluate(() => {
+      const issues = [];
+      document.querySelectorAll('.slides > section').forEach((section, index) => {
+        window.energyDeck.slide(index);
+        const footer = section.querySelector('footer').getBoundingClientRect();
+        section.querySelectorAll('.slide-inner > :not(footer)').forEach(block => {
+          const bounds = block.getBoundingClientRect();
+          if (bounds.bottom > footer.top - 3 || bounds.right > footer.right + 3) issues.push(`${section.id}: ${block.className || block.tagName}`);
+        });
+      });
+      return issues;
+    });
+    assert.deepEqual(overlaps, [], 'Conteúdo deve caber acima e dentro do rodapé');
     const chart = page.locator('[data-energy-chart="temporal"]');
     await page.evaluate(() => {
       const section = document.querySelector('[data-energy-chart="temporal"]').closest('section');
