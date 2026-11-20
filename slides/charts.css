@@ -1,26 +1,146 @@
-.energy-chart { width: 100%; font: inherit; text-align: left; }
-.energy-chart .chart-controls, .energy-chart .chart-series { display: flex; align-items: center; flex-wrap: wrap; gap: .45rem 1rem; margin: .45rem 0; font-size: clamp(12px, 1.25vw, 19px); }
-.energy-chart button { border: 1px solid currentColor; background: transparent; color: inherit; border-radius: 6px; padding: .35em .8em; font: inherit; cursor: pointer; }
-.energy-chart button:hover { background: #275a7812; }
-.energy-chart :focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
-.energy-chart input[type=range] { width: min(220px, 22vw); accent-color: #4EA9C7; }
-.energy-chart input[type=checkbox] { accent-color: #4EA9C7; margin-right: .35em; }
+.energy-chart {
+  width: 100%;
+  font: inherit;
+  text-align: left;
+}
+
+.energy-chart .chart-controls,
+.energy-chart .chart-series {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .35rem .75rem;
+  margin: .3rem 0;
+  font-size: clamp(11px, 1.08vw, 16px);
+}
+
+.energy-chart .chart-controls {
+  padding-bottom: .35rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.energy-chart button {
+  border: 1px solid var(--accent);
+  border-radius: 0;
+  padding: .3em .7em;
+  background: var(--surface-soft);
+  color: var(--accent);
+  font: inherit;
+  cursor: pointer;
+}
+
+.energy-chart button:hover { background: var(--accent-soft); }
+
+.energy-chart :focus-visible {
+  outline: 3px solid var(--secondary);
+  outline-offset: 3px;
+}
+
+.energy-chart input[type=range] {
+  width: min(210px, 22vw);
+  accent-color: var(--accent);
+}
+
+.energy-chart input[type=checkbox] {
+  margin-right: .3em;
+  accent-color: var(--accent);
+}
+
 .energy-chart .chart-series label { cursor: pointer; }
-.energy-chart .chart-swatch { display: inline-block; width: .8em; height: .8em; margin-right: .3em; border-radius: 2px; border: 1px solid currentColor; }
-.energy-chart svg { display: block; width: 100%; max-height: 280px; overflow: visible; }
-.energy-chart svg text { fill: currentColor; font-family: inherit; font-size: 15px; }
-.energy-chart .chart-source, .energy-chart .chart-note { margin: .4rem 0; font-size: clamp(11px, 1.1vw, 16px); line-height: 1.35; opacity: .8; }
-.energy-chart .chart-readout { font-size: clamp(12px, 1.25vw, 18px); min-height: 1.4em; margin: .4rem 0; }
-.energy-chart details { font-size: 14px; position: relative; }
-.energy-chart details[open] table { position: absolute; bottom: 100%; left: 0; z-index: 10; background: var(--surface); color: var(--paper); border: 1px solid var(--rule); box-shadow: 0 4px 16px #202b3618; max-height: 180px; overflow: auto; display: block; padding: .6rem; box-sizing: border-box; }
+
+.energy-chart .chart-swatch {
+  display: inline-block;
+  width: .75em;
+  height: .75em;
+  margin-right: .3em;
+  border: 1px solid currentColor;
+  border-radius: 0;
+}
+
+.energy-chart svg {
+  display: block;
+  width: 100%;
+  max-height: 245px;
+  overflow: visible;
+}
+
+.energy-chart svg text {
+  fill: currentColor;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.energy-chart .chart-source,
+.energy-chart .chart-note {
+  margin: .25rem 0;
+  color: var(--muted);
+  font-size: clamp(10px, .95vw, 13px);
+  line-height: 1.25;
+}
+
+.energy-chart .chart-readout {
+  min-height: 1.3em;
+  margin: .25rem 0;
+  color: var(--accent-dark);
+  font-size: clamp(11px, 1.05vw, 15px);
+  font-weight: 700;
+}
+
+.energy-chart details {
+  position: relative;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.energy-chart details[open] table {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  z-index: 10;
+  display: block;
+  max-height: 180px;
+  overflow: auto;
+  padding: .5rem;
+  border: 1px solid var(--rule-dark);
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: 0 4px 14px rgba(0, 47, 73, .12);
+  box-sizing: border-box;
+}
+
 .energy-chart details summary { cursor: pointer; }
-.energy-chart table { font-size: 13px !important; width: 100%; border-collapse: collapse; }
-.energy-chart th, .energy-chart td { padding: .2em .5em !important; border-bottom: 1px solid #8885; }
+
+.energy-chart table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px !important;
+}
+
+.energy-chart th,
+.energy-chart td {
+  padding: .2em .45em !important;
+  border-bottom: 1px solid var(--rule) !important;
+}
+
 .energy-chart .chart-print { display: none; }
-@media (prefers-reduced-motion: reduce) { .energy-chart * { animation: none !important; transition: none !important; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .energy-chart * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
 @media print {
-  .energy-chart .chart-screen, .energy-chart .chart-controls, .energy-chart .chart-series, .energy-chart .chart-readout, .energy-chart details { display: none !important; }
+  .energy-chart .chart-screen,
+  .energy-chart .chart-controls,
+  .energy-chart .chart-series,
+  .energy-chart .chart-readout,
+  .energy-chart details { display: none !important; }
+
   .energy-chart .chart-print { display: block !important; }
-  .energy-chart svg { max-height: 260px; }
-  .energy-chart .chart-source, .energy-chart .chart-note { font-size: 12px; }
+  .energy-chart svg { max-height: 250px; }
+
+  .energy-chart .chart-source,
+  .energy-chart .chart-note { font-size: 11px; }
 }
