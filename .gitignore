@@ -1,0 +1,6 @@
+.worktrees/
+node_modules/
+.npm-cache/
+.playwright/
+docs/relatorio-atual-extraido.txt
+test-results/
