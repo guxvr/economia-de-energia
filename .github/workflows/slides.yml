@@ -15,7 +15,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment_retry.outputs.page_url || steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -25,4 +25,12 @@ jobs:
           path: slides
       - name: Publicar
         id: deployment
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+      - name: Aguardar disponibilização do artefato
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 15
+      - name: Publicar novamente
+        if: steps.deployment.outcome == 'failure'
+        id: deployment_retry
         uses: actions/deploy-pages@v4
