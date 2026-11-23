@@ -34,14 +34,6 @@
   deck.initialize().then(function () {
     if (window.EnergyCharts) window.EnergyCharts.mountAll();
   });
-  document.getElementById('overview-button').addEventListener('click', function () { deck.toggleOverview(); });
-  document.getElementById('fullscreen-button').addEventListener('click', function () {
-    if (document.fullscreenElement) {
-      document.exitFullscreen().catch(function () {});
-    } else if (document.documentElement.requestFullscreen) {
-      document.documentElement.requestFullscreen().catch(function () {});
-    }
-  });
   // Reveal must leave keyboard events inside chart controls to those controls.
   container.addEventListener('keydown', function (event) {
     if (event.target.closest('button, input, select, textarea, [role="slider"]')) event.stopPropagation();

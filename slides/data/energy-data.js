@@ -1,4 +1,4 @@
-/* Transcrição do relatório de 17/11/2026. Atualizar após revisão do grupo. */
+/* Transcrição conferida contra o artigo final. */
 window.ENERGY_DATA = {
   temporal: {
     title: 'Dependência externa por fonte', unit: '%', geography: 'Brasil',

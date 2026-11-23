@@ -15,6 +15,7 @@ test('apresentação offline: navegação, dados, reprodução, teclado e impres
     page.on('request', request => { if (/^https?:/.test(request.url())) external.push(request.url()); });
     await page.goto(url);
     await page.waitForFunction(() => window.energyDeck?.isReady());
+    assert.equal(await page.locator('.utility-bar').count(), 0, 'A barra de ferramentas não deve cobrir os slides');
     assert.ok(await page.locator('.slides > section').count() >= 16);
     const overlaps = await page.evaluate(() => {
       const issues = [];
