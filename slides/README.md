@@ -1,6 +1,6 @@
-# Apresentação inicial — Grupo 7
+# Apresentação final — Grupo 7
 
-Esta versão usa o relatório de 17/11/2026 fornecido por Gustavo. Druck poderá finalizar o conteúdo e o visual após o feedback da professora. Não representa aprovação dos cinco integrantes nem conclusão da T09.
+Esta versão foi conferida contra o artigo final e revisada pelos apresentadores. Como não houve novo retorno da professora, ela é a versão final vigente para a apresentação de 24/11/2026.
 
 ## Abrir e apresentar
 
@@ -25,11 +25,11 @@ Acesse `http://127.0.0.1:4173`. Setas avançam/voltam; `Esc` abre visão geral; 
 
 Os gráficos temporais usam apenas 2016, 2021 e 2025, observados na Tabela 7; não interpolam anos ausentes. Valores negativos representam exportação líquida. A participação na OIE e a dependência externa são indicadores diferentes. A dependência do carvão na Tabela 7 tem recorte distinto do cálculo de 78,8% em base energética para carvão e coque; preserve as notas ao revisar.
 
-Ao mudar dados, confira a fonte e atualize a tabela acessível, as notas e o PDF. Não use dados ilustrativos como resultados. As observações do relatório ainda estão sujeitas à revisão acadêmica do grupo.
+Ao mudar dados, confira a fonte e atualize a tabela acessível, as notas e o PDF. Não use dados ilustrativos como resultados.
 
 ## PDF
 
-`apresentacao-inicial.pdf` é a fotografia da versão inicial. Para regenerar:
+`apresentacao-inicial.pdf` é o arquivo exportado da apresentação. Regere-o sempre que o conteúdo ou o visual for alterado:
 
 ```sh
 npm ci
@@ -48,7 +48,7 @@ Também é possível abrir `index.html?print-pdf` em Chromium/Chrome/Edge e salv
 
 ## Publicar
 
-O workflow `.github/workflows/slides.yml` publica o conteúdo desta pasta após alterações em `main`, ou execução manual. Em Settings → Pages, selecione **GitHub Actions** como fonte. O endereço previsto é https://guxvr.github.io/economia-de-energia/. A existência do workflow local não significa que o site já está publicado. Consulte a [documentação GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
+O workflow `.github/workflows/slides.yml` publica o conteúdo desta pasta após alterações em `main`, ou execução manual. A apresentação está disponível em https://guxvr.github.io/economia-de-energia/. Consulte a [documentação do GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
 
 ## Testar
 
@@ -62,12 +62,11 @@ O teste abre a versão `file://`, exige ausência de recursos externos, verifica
 
 `npm run vendor` atualiza a cópia do Reveal.js a partir da versão fixada no lockfile. A licença está em `vendor/reveal/LICENSE`.
 
-## Pendências do Druck e do grupo
+## Verificações finais
 
-- Incorporar feedback da professora e revisar os recortes e os números com os autores de cada seção.
-- Ajustar visual, divisão de falas e notas, ensaiando em até 30 minutos.
-- Confirmar links, legibilidade no projetor e funcionamento das notas no equipamento da sala.
-- Conferir PDF regenerado e cópia offline em outro computador.
-- Publicar e conferir o endereço público; atualizar a issue #10 e seus critérios após verificação.
+- Levar a pasta `slides/` completa para uso offline.
+- Na sala, confirmar a legibilidade no projetor e o funcionamento das notas; essa verificação só pode ser feita no equipamento da apresentação.
+
+O roteiro, a divisão das falas e a preparação para perguntas estão em [`docs/roteiro-apresentacao.md`](../docs/roteiro-apresentacao.md). O ensaio cronometrado deve ser registrado nesse arquivo.
 
 O [plano e a divisão das worktrees](../docs/plano-t09.md) registram a implementação e a revisão independente.
