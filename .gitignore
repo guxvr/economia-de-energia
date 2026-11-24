@@ -4,3 +4,6 @@ node_modules/
 .playwright/
 docs/relatorio-atual-extraido.txt
 test-results/
+debug.log
+/apresentacao-inicial.pdf
+/roteiro-apresentacao.pdf
